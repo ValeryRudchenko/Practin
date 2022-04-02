@@ -1,0 +1,58 @@
+body {
+background-color: rgb(233, 237, 240);
+width: 100%;
+display: flex;
+justify-content: center;
+font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+font-size: 81.25%;
+}
+
+.container {
+    padding: 40px;
+}
+
+.box_left{
+    width: 300px;
+    display: block;
+    float: left;
+    text-align: start;
+}
+
+.box_right {
+    width: 350px;
+    display: block;
+    float: right;
+}
+
+.ava {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+    
+}
+
+.name  {
+    font-size: 20px;
+    padding-right: 50px;
+    color: rgba(57, 76, 130, 0.995);
+}
+
+.grey  {
+    color: grey;
+    
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 10px;
+}
+
+.table {
+    width: 250px;
+    text-align: left;
+}
+
+.hr {
+    margin-bottom: 30px;
+}
